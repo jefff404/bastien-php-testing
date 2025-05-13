@@ -1,0 +1,27 @@
+{
+
+  "name": "bastien-php-testing",
+  "version": "1.0.0",
+  "description": "## Prérequis",
+  "homepage": "https://github.com/jefff404/bastien-php-testing#readme",
+  "bugs": {
+    "url": "https://github.com/jefff404/bastien-php-testing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefff404/bastien-php-testing.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "cypress test": "cypress open",
+    "docker:up": "docker compose up",
+    "docker:down": "docker compose down"
+
+  },
+  "devDependencies": {
+    "cypress": "^14.3.3"
+  }
+}
