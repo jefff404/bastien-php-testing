@@ -4,6 +4,7 @@
 
 - Docker Desktop installé
 - Git (obligatoire pour les github actions)
+- Github Actions 
 
 ## Lancement du projet
 
