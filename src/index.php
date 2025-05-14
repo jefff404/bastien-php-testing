@@ -1,4 +1,7 @@
 <?php
+// Accès depuis n'importe quel site ou appareil (*)
+header("Access-Control-Allow-Origin: *");
+
 $host = 'db';
 $db   = 'testdb';
 $user = 'user';
