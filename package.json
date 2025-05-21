@@ -1,5 +1,4 @@
 {
-
   "name": "bastien-php-testing",
   "version": "1.0.0",
   "description": "## Prérequis",
@@ -19,7 +18,6 @@
     "cypress test": "cypress open",
     "docker:up": "docker compose up",
     "docker:down": "docker compose down"
-
   },
   "devDependencies": {
     "cypress": "^14.3.3"
