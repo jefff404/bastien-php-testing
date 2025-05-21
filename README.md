@@ -4,7 +4,7 @@
 
 - Docker Desktop installé
 - Git (obligatoire pour les github actions)
-- Node.js (pour Cypress)
+- Node.js (pour Cypress et lancer des script npm)
 
 ## Installation
 
@@ -24,7 +24,7 @@ npm install
 docker compose up --build
 ```
 
-Ou utiliser le script npm:
+Ou utiliser le script npm custom qui va lancer docker compose up:
 
 ```bash
 npm run docker:up
@@ -44,6 +44,7 @@ Le projet utilise Cypress pour les tests end-to-end. Pour lancer les tests:
 ```bash
 npm run cypress test
 ```
+
 
 Ou pour ouvrir l'interface Cypress directement:
 
